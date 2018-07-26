@@ -1,3 +1,14 @@
+"""
+Provides :class:`ImageMetadata`, for working with EXIF IR metadata.
+
+.. todo::
+
+   Many of the names of constants are from
+   https://github.com/joshuapinter/flir/blob/master/flir.php. Someone more
+   familiar with the maths should revisit naming/docstrings.
+
+"""
+
 from typing import Dict
 from subprocess import run, STDOUT, PIPE
 import shlex

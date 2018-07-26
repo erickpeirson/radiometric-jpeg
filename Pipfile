@@ -9,6 +9,7 @@ pandas = "*"
 attrdict = "*"
 click = "*"
 pillow = "*"
+"e1839a8" = {path = "."}
 
 [dev-packages]
 pytest = "*"
